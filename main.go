@@ -11,4 +11,7 @@ func main() {
 	fmt.Printf("maxVal: %d\n", mv)
 	fmt.Printf("countElem: %d\n", CountElem(arr))
 	fmt.Printf("sumElem: %d\n", SumElem(arr))
+	a2 := []int{3, 21, 1, 4, 3, -1}
+	QSort(&a2, 0, len(a2)-1)
+	fmt.Printf("qSort: %v", a2)
 }
